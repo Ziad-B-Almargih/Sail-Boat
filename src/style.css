@@ -1,0 +1,53 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html,
+body
+{
+    overflow: hidden;
+    
+   
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+#velocity{
+    position: fixed;
+    top: 150px;
+    left: 10px;
+    color: white;
+}
+#angle{
+    position: fixed;
+    top: 170px;
+    left: 10px;
+    color: white;
+}
+svg {
+    transform-origin: center center;
+}
+
+
+#valuesDisplay {
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    width: 250px; /* Adjust the width as needed */
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+    z-index: 1000; /* Ensure it stays on top */
+}
